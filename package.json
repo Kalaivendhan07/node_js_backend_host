@@ -1,0 +1,19 @@
+{
+  "name": "backend_host",
+  "version": "1.0.0",
+  "description": "nodejs backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kalaivendhan07/node_js_backend_host.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kalaivendhan07/node_js_backend_host/issues"
+  },
+  "homepage": "https://github.com/Kalaivendhan07/node_js_backend_host#readme"
+}

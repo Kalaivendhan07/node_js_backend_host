@@ -6,7 +6,7 @@ const path=require('./utils/path/root_path');
 // console.log(path.rootDir);
 const morgan=require('morgan');
 require('dotenv').config();
-const router=require('./router/router');
+const router=require('./router/restApi');
 
 const port=process.env.PORT || 8080;
 
@@ -16,11 +16,11 @@ app.use(morgan('dev'));
 
 app.use('/eduTrackPro',router);
 
-app.use('/',(req,res)=>{
-    res.status(200).json({
-        msg:"Logged succussfully...!"
-    })
-});
+// app.use('/',(req,res)=>{
+//     res.status(200).json({
+//         msg:"Logged succussfully...!"
+//     })
+// });
 
 app.use((req,res,next)=>{
     res.status(404).json({
